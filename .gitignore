@@ -1,0 +1,22 @@
+# ---- Large data (inputs) — do NOT commit ----
+*.parquet
+train_target.csv
+sample_submission.csv
+sample_submission.xlsx
+
+# ---- Generated arrays / features / models / predictions ----
+*.npy
+*.cbm
+*.pt
+
+# ---- Logs / OS ----
+*.log
+.DS_Store
+__pycache__/
+*.pyc
+
+# ---- Keep ----
+!submission.csv
+
+# CatBoost auto-generated training logs
+catboost_info/
